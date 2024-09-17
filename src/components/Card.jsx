@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {Link} from 'react-router-dom'
-import FiMapPin, { FiCalendar, FiDollarSign } from 'react-icons/fi'
+import {FiMapPin, FiCalendar, FiDollarSign, FiClock } from 'react-icons/fi'
 
 const Card = ({data}) => {
     const{companyName, companyLogo, minPrice, maxPrice, salaryType, jobLocation, employmentType, postingDate, description} = data
