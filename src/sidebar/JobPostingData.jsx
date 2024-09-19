@@ -1,4 +1,5 @@
 import React from 'react'
+import InputField from '../components/InputField'
 
 const JobPostingData = ({handleChange}) => {
     const now = new Date();
